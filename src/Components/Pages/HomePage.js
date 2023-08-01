@@ -63,7 +63,7 @@ const Homepage = () => {
                         <div className='flex  d-flex flex-wrap '>
                             {noteData?.map(p => (
                                 <div key={p._id}>
-                                    <div className=' card p-3 m-2 border-2 rounded-lg border-black  '>
+                                    <div className=' card p-3 m-2 border-2 rounded-lg border-black dark:text-white dark:border-white'>
                                         <div className=' relative'>
                                             <h1 className='text-xl font-bold mr-5'>{p.title}</h1>
                                             <div className='flex mr-5'>
