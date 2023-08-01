@@ -15,7 +15,7 @@ const Register = () => {
         try {
             const response = await axios.post('/user/createUser', { name, email, password });
             if (response.data) {
-                navigate('/');
+                navigate('/login');
             }
         } catch (err) {
             console.log(err);
