@@ -29,6 +29,7 @@ const Homepage = () => {
         })
         if (res) {
             toast.success('Note Created Successfully')
+            window.location.reload();
         }
         else {
             toast.warning('Something went wrong!')
