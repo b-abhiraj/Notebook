@@ -44,6 +44,7 @@ const Homepage = () => {
     const handleOk = () => {
         handleSubmit();
         setIsModalOpen(false);
+        getAllNotes();
     };
     const handleCancel = () => {
         setIsModalOpen(false);
