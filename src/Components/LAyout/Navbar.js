@@ -22,7 +22,7 @@ const Navbar = () => {
             <div className='flex dark:bg-blue-950 dark:text-white'>
                 <button className='p-3 pl-8 flex' onClick={() => navigate("/")}>
                     <Book />
-                    <h1 className="font-bold ">Navbar</h1>
+                    <h1 className="font-bold ">NoteBook</h1>
                 </button>
                 <div className='ms-auto p-3 pr-8 flex'>
                     <div className='pr-2 flex'>
