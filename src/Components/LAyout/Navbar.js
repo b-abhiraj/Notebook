@@ -36,7 +36,6 @@ const Navbar = () => {
                     <div className=' hover:text-blue-400 group'>
                         <UserCircle2 size={24} />
                         <ul className='hidden absolute right-5 group-hover:flex bg-white flex-col gap-5 rounded-md shadow-md p-5'>
-                            <button>Demo 1</button>
                             <button>New</button>
                             {
                                 authToken.authToken ? (<button onClick={handleLogout}>Logout</button>) : (<button onClick={(ev) => navigate('/login')}>Login</button>)}
