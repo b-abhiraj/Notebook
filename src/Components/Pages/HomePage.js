@@ -72,7 +72,7 @@ const Homepage = () => {
                                                     <div className='hidden absolute group-hover:flex bg-white flex-col gap-5 rounded-md shadow-md p-3'>
                                                         <ul>
                                                             <li>
-                                                                <button className='hover:bg-blue-800 hover:text-white  p-2 rounded-md' onClick={showModal}>  Update
+                                                                <button className='text-black hover:bg-blue-800 hover:text-white  p-2 rounded-md' onClick={showModal}>  Update
                                                                 </button>
                                                                 <Modal title="Update a Note" open={isModalOpen} onOk={() => {
                                                                     try {
