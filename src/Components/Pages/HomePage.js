@@ -69,10 +69,11 @@ const Homepage = () => {
                                             <div className='flex mr-5'>
                                                 <p>{p.body}</p>
                                                 <div className='right-0 ml-5 group absolute'><MoreVertical />
-                                                    <div className='hidden absolute group-hover:flex bg-white flex-col gap-5 rounded-md shadow-md p-3'>
+                                                    <div className='hidden absolute group-hover:flex text-black bg-white flex-col gap-5 rounded-md shadow-md p-3'>
                                                         <ul>
                                                             <li>
-                                                                <button className='text-black hover:bg-blue-800 hover:text-white  p-2 rounded-md' onClick={showModal}>  Update
+                                                                <button className='
+hover:bg-blue-800 hover:text-white  p-2 rounded-md' onClick={showModal}>  Update
                                                                 </button>
                                                                 <Modal title="Update a Note" open={isModalOpen} onOk={() => {
                                                                     try {
